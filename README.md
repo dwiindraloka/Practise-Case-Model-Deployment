@@ -1,4 +1,4 @@
-# Practise-Case-Model-Deployment
+# PRACTISE CASE MODEL DEPLOYMENT
 ## 1. Deploy Model Credit Scoring 
 This model is used to do credit scoring by using the Random Forest algorithm to predict whether a consumer will be late paying credit in the next month.
 <br>
@@ -10,16 +10,15 @@ The variables that used to calculate credit scoring are:
 * PAY_1: Customer late for first payment (in Month)
 * PAY_2: Customer late for second payment (in Month)
 * PAY_3: Customer late for third payment (in Month)
-* BILL_AMT1: Customer's bill for first payment
-* BILL_AMT2: Customer's bill for second payment
-* BILL_AMT3: Customer's bill for third payment
-
+* BILL_AMT1: Customer's bill for first payment (in USD)
+* BILL_AMT2: Customer's bill for second payment (in USD)
+* BILL_AMT3: Customer's bill for third payment (in USD)
 <br>
-The output's result are 0 or 1, namely:
+The output's result are:
 <br>
-0: Customer are predicted not to be late in making credit payments for next month
+0 for Customer are predicted not to be late in making credit payments for next month
 <br>
-1: Customer are predicted to be late in making credit payments for next month
+1 for Customer are predicted to be late in making credit payments for next month
 <br>
 
 ## 2. Make server on pythonanywhere
@@ -29,4 +28,16 @@ To create a deployment model, we use pythonanywhere to create a server for the m
 * flask_app.py: file used as a "server" file stored in pythonanywhere.
 <br>
 
-## 3. 
+## 3. Instruction for Model Testing
+> 1. Download the `request_online.py` file
+> 2. Move the file `request_online.py` to the local disk directory D
+> 3. Open the Anaconda Prompt
+> 4. Type `d:`
+> 5. Type `python request_online.py`
+> 6. Input the number of observation (number of customer that want to be predict) then click enter
+> 7. Input the value of every variable according to the explanation on poin "1. Deploy Model Credit Scoring"
+> 8. Always click enter after input the value of every variable
+> 9. Complete all the input
+> 10. Wait for a few seconds, and the results will appear
+
+## THANK YOU
