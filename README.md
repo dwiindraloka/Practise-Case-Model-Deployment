@@ -33,7 +33,7 @@ To create a deployment model, we use pythonanywhere to create a server for the m
 > 7. Input the number of observation (number of customer that want to be predict) then click enter
 > 8. Input the value of every variable according to the explanation on poin "1. Deploy Model Credit Scoring"
 > 9. Always click enter after input the value of every variable
-> 10. Complete all the input
+> 10. Complete all the input process
 > 11. Wait for a few seconds, and the results will appear
 
 ## THANK YOU
