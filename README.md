@@ -1,8 +1,6 @@
 # PRACTISE CASE MODEL DEPLOYMENT
 ## 1. Deploy Model Credit Scoring 
-This model is used to do credit scoring by using the Random Forest algorithm to predict whether a consumer will be late paying credit in the next month.
-<br>
-The variables that used to calculate credit scoring are:
+This model is used to do credit scoring by using the Random Forest algorithm to predict whether a consumer will be late paying credit in the next month. The variables that used to calculate credit scoring are:
 <br>
 * LIMIT_BAL: Customer's credit limits (in USD)
 * SEX: Customer's gender (Man = 1, Woman = 2)
