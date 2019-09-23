@@ -14,8 +14,8 @@ This model is used to do credit scoring by using the Random Forest algorithm to 
 
 The output's result are:
 <br>
-* 0 for Customer are predicted not to be late in making credit payments for next month
-* 1 for Customer are predicted to be late in making credit payments for next month
+* 0 for customer are predicted not to be late in making credit payments for next month
+* 1 for customer are predicted to be late in making credit payments for next month
 
 ## 2. Make Server on pythonanywhere
 To create a deployment model, we use pythonanywhere to create a server for the model that was created. In pythonanywhere there are two files uploaded, there are:
