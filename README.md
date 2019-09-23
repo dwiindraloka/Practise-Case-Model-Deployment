@@ -13,7 +13,7 @@ The variables that used to calculate credit scoring are:
 * BILL_AMT1: Customer's bill for first payment (in USD)
 * BILL_AMT2: Customer's bill for second payment (in USD)
 * BILL_AMT3: Customer's bill for third payment (in USD)
-<br>
+
 The output's result are:
 <br>
 0 for Customer are predicted not to be late in making credit payments for next month
@@ -26,7 +26,6 @@ To create a deployment model, we use pythonanywhere to create a server for the m
 <br>
 * modelcs.pkl: file containing the Random Forest algorithm that used to to predict whether a consumer will be late paying credit in the next month.
 * flask_app.py: file used as a "server" file stored in pythonanywhere.
-<br>
 
 ## 3. Instruction for Model Testing
 > 1. Download the `request_online.py` file
